@@ -22,3 +22,20 @@ For example,
   13.calculate the min and max of the list 2*3=6
   14. return [2,3,6]
   
+ Question 2:
+  Create a visual model that explains list insertion.
+  Text field: A field to provide input for inserting a new element into the list
+  Button named as "Insert": Clicking this button inserts a new element at the end of the existing list, 
+  the new element being the value provided in the text field.
+  
+  Requirements:
+  No element should be inserted if the text field is empty. When the user clicks the button in case of empty input, display the alert
+  with the message "please provide the valid input".
+  When an element is inserted, reset the input value.
+  Every third element in the list must be displayed in red and the remaining elements in black.
+  Each of the list elements should follow the format <li style="">text_to_be_inserted</li>
+  
+  Question 3:
+  Create a class method in Java to use provided Validate class method to validate the given name and if it's true, reverse it to all lowercase and return, else throw illigalArgumentException. 
+  This question is fairly simple as the hard part which is validate method is given.
+  
